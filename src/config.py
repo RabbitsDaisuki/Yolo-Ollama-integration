@@ -1,7 +1,8 @@
 import logging
 from pathlib import Path
 # --- 
-ollama_model_index = "llama3.2"
+# ollama_model_index = "llama3.2"
+ollama_model_index = "llama3.2-vision"
 yolo_model_index = "yolov8n"
 # yolo_model_index = "yolo11n"
 train_data = "data.yaml"

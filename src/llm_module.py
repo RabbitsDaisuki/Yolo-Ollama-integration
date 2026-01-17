@@ -6,6 +6,7 @@ import whisper
 import pyttsx3
 import sounddevice as sd
 from src import config
+import cv2
 import logging
 
 
@@ -94,10 +95,42 @@ class LLMDetection():
         print(f"User said: {text}")
         return text
     
-    def _Chat_With_Ollama(self, user_text):
+    def _Chat_With_Ollama(self, user_text, image_frame = None, yolo_take = None ):
         # 1. Send a request to the local Ollama model
         # We use "chat" method for conversation-style interaction 
+        message_reading = {
+            'role': 'user',
+            'content': user_text
+        }
+        
         print("Thinking...")
+        
+        if image_frame is not None:
+            # Format image 
+            gray_frame = cv2.cvtColor(image_frame, cv2.COLOR_BGR2GRAY)
+            is_success, buffer= cv2.imencode(".webp", 
+                                            image_frame, 
+                                            [int(cv2.IMWRITE_WEBP_QUALITY), 90]
+                                            )
+            if is_success:
+                #From Image array change to bytes item
+                image_bytes = buffer.tobytes()
+
+                # Add image parameter to Ollama python
+                message_reading['images'] = [image_bytes]
+
+                #Tell Ollama go to watch image 
+                message_reading['content'] = f"User said: '{user_text}'. Please look at the provided image and answer"
+
+                print("[Brain] Image attached to prompt.")
+            
+            else:
+                print("[Error] Failed to encode image frame.")
+
+            
+        if yolo_take:
+            message_payload['content'] += f"(Note: YOLO detector found: {yolo_take})"
+
 
         config.ASK_HISTORY.append({'role': 'user', 'content': user_text})
 

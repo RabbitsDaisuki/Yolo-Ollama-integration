@@ -136,3 +136,182 @@
 2026-01-16 00:13:38,618 - INFO - Not message from yolo
 2026-01-16 00:14:13,101 - INFO - System shutdown safely
 2026-01-16 00:14:13,112 - INFO - Camera Status: Release successfully
+2026-01-16 15:40:29,755 - INFO - System status: Running
+2026-01-16 15:41:32,677 - INFO - System shutdown safely
+2026-01-16 15:41:32,772 - INFO - Camera Status: Release successfully
+2026-01-16 22:10:20,530 - INFO - System status: Running
+2026-01-16 22:10:21,490 - ERROR - System Error for name 'shared_data' is not defined
+2026-01-16 22:10:21,500 - INFO - Camera Status: Release successfully
+2026-01-16 22:12:23,305 - INFO - System status: Running
+2026-01-16 22:12:23,591 - ERROR - System Error for name 'shared_data' is not defined
+2026-01-16 22:12:23,602 - INFO - Camera Status: Release successfully
+2026-01-16 22:14:05,889 - INFO - System status: Running
+2026-01-16 22:14:21,967 - INFO - LLM Status: Link Successfully
+2026-01-16 22:14:35,192 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:14:39,597 - INFO - Not message from yolo
+2026-01-16 22:14:59,451 - INFO - LLM Status: Link Successfully
+2026-01-16 22:14:59,708 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:15:07,045 - INFO - Not message from yolo
+2026-01-16 22:15:14,728 - INFO - LLM Status: Link Successfully
+2026-01-16 22:15:14,960 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:15:19,654 - INFO - Not message from yolo
+2026-01-16 22:15:29,236 - INFO - LLM Status: Link Successfully
+2026-01-16 22:15:29,480 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:15:34,138 - INFO - Not message from yolo
+2026-01-16 22:15:41,175 - INFO - LLM Status: Link Successfully
+2026-01-16 22:15:41,475 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:15:45,360 - INFO - Not message from yolo
+2026-01-16 22:15:50,168 - INFO - LLM Status: Link Successfully
+2026-01-16 22:15:50,414 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:15:54,287 - INFO - Not message from yolo
+2026-01-16 22:16:26,862 - INFO - LLM Status: Link Successfully
+2026-01-16 22:16:27,140 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:16:33,060 - INFO - Not message from yolo
+2026-01-16 22:16:39,621 - INFO - LLM Status: Link Successfully
+2026-01-16 22:16:39,862 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:16:44,298 - INFO - Not message from yolo
+2026-01-16 22:16:54,844 - INFO - System shutdown safely
+2026-01-16 22:16:54,858 - INFO - Camera Status: Release successfully
+2026-01-16 22:17:59,587 - INFO - System status: Running
+2026-01-16 22:18:09,286 - INFO - LLM Status: Link Successfully
+2026-01-16 22:18:09,576 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:18:13,511 - INFO - Not message from yolo
+2026-01-16 22:18:16,990 - INFO - LLM Status: Link Successfully
+2026-01-16 22:18:25,490 - INFO - LLM Status: Link Successfully
+2026-01-16 22:18:25,733 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:18:29,047 - INFO - Not message from yolo
+2026-01-16 22:18:36,295 - INFO - LLM Status: Link Successfully
+2026-01-16 22:18:36,538 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:18:41,785 - INFO - Not message from yolo
+2026-01-16 22:18:47,373 - INFO - LLM Status: Link Successfully
+2026-01-16 22:18:47,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:18:56,762 - INFO - Not message from yolo
+2026-01-16 22:19:03,688 - INFO - LLM Status: Link Successfully
+2026-01-16 22:19:03,917 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:19:21,896 - INFO - Not message from yolo
+2026-01-16 22:19:31,535 - INFO - LLM Status: Link Successfully
+2026-01-16 22:19:31,790 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:19:46,868 - INFO - Not message from yolo
+2026-01-16 22:19:54,232 - INFO - LLM Status: Link Successfully
+2026-01-16 22:19:54,488 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:20:06,229 - INFO - Not message from yolo
+2026-01-16 22:20:19,507 - INFO - System shutdown safely
+2026-01-16 22:20:19,539 - INFO - Camera Status: Release successfully
+2026-01-16 22:29:33,637 - INFO - System status: Running
+2026-01-16 22:29:49,170 - INFO - LLM Status: Link Successfully
+2026-01-16 22:29:52,233 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:29:53,982 - INFO - Not message from yolo
+2026-01-16 22:30:16,611 - INFO - LLM Status: Link Successfully
+2026-01-16 22:30:16,999 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:30:22,084 - INFO - Not message from yolo
+2026-01-16 22:30:47,863 - INFO - LLM Status: Link Successfully
+2026-01-16 22:30:48,102 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:30:51,536 - INFO - Not message from yolo
+2026-01-16 22:31:12,431 - INFO - LLM Status: Link Successfully
+2026-01-16 22:31:12,680 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:31:14,917 - INFO - Not message from yolo
+2026-01-16 22:31:21,854 - INFO - LLM Status: Link Successfully
+2026-01-16 22:31:22,098 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:31:25,667 - INFO - Not message from yolo
+2026-01-16 22:31:40,988 - INFO - LLM Status: Link Successfully
+2026-01-16 22:31:41,239 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:31:44,299 - INFO - Not message from yolo
+2026-01-16 22:31:58,593 - INFO - System shutdown safely
+2026-01-16 22:31:58,611 - INFO - Camera Status: Release successfully
+2026-01-16 22:47:00,229 - INFO - System status: Running
+2026-01-16 22:47:07,731 - INFO - LLM Status: Link Successfully
+2026-01-16 22:47:16,281 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:47:16,804 - INFO - Not message from yolo
+2026-01-16 22:47:32,857 - INFO - LLM Status: Link Successfully
+2026-01-16 22:47:33,203 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:47:34,880 - INFO - Not message from yolo
+2026-01-16 22:47:38,345 - INFO - LLM Status: Link Successfully
+2026-01-16 22:47:49,431 - INFO - LLM Status: Link Successfully
+2026-01-16 22:47:49,820 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:47:50,734 - INFO - Not message from yolo
+2026-01-16 22:47:59,592 - INFO - LLM Status: Link Successfully
+2026-01-16 22:47:59,925 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:00,916 - INFO - Not message from yolo
+2026-01-16 22:48:07,531 - INFO - LLM Status: Link Successfully
+2026-01-16 22:48:07,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:08,344 - INFO - Not message from yolo
+2026-01-16 22:48:18,109 - INFO - LLM Status: Link Successfully
+2026-01-16 22:48:18,467 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:19,405 - INFO - Not message from yolo
+2026-01-16 22:48:29,018 - INFO - LLM Status: Link Successfully
+2026-01-16 22:48:29,387 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:29,921 - INFO - Not message from yolo
+2026-01-16 22:48:37,372 - INFO - LLM Status: Link Successfully
+2026-01-16 22:48:37,753 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:38,400 - INFO - Not message from yolo
+2026-01-16 22:48:47,177 - INFO - LLM Status: Link Successfully
+2026-01-16 22:48:47,581 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:48,496 - INFO - Not message from yolo
+2026-01-16 22:48:53,650 - INFO - LLM Status: Link Successfully
+2026-01-16 22:48:54,090 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:48:55,933 - INFO - Not message from yolo
+2026-01-16 22:49:05,749 - INFO - LLM Status: Link Successfully
+2026-01-16 22:49:06,324 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:49:09,097 - INFO - Not message from yolo
+2026-01-16 22:49:17,054 - INFO - LLM Status: Link Successfully
+2026-01-16 22:49:17,622 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:49:21,250 - INFO - Not message from yolo
+2026-01-16 22:49:31,644 - INFO - LLM Status: Link Successfully
+2026-01-16 22:49:32,261 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:49:34,794 - INFO - Not message from yolo
+2026-01-16 22:49:40,593 - INFO - LLM Status: Link Successfully
+2026-01-16 22:49:41,297 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:49:41,804 - INFO - Not message from yolo
+2026-01-16 22:49:50,457 - INFO - LLM Status: Link Successfully
+2026-01-16 22:49:51,141 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:49:52,895 - INFO - Not message from yolo
+2026-01-16 22:50:04,109 - INFO - LLM Status: Link Successfully
+2026-01-16 22:50:04,922 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:50:14,566 - INFO - Not message from yolo
+2026-01-16 22:50:23,799 - INFO - LLM Status: Link Successfully
+2026-01-16 22:50:24,627 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:50:27,031 - INFO - Not message from yolo
+2026-01-16 22:50:31,176 - INFO - LLM Status: Link Successfully
+2026-01-16 22:50:35,158 - INFO - LLM Status: Link Successfully
+2026-01-16 22:50:36,017 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:50:40,671 - INFO - Not message from yolo
+2026-01-16 22:50:51,161 - INFO - LLM Status: Link Successfully
+2026-01-16 22:50:52,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:50:56,347 - INFO - Not message from yolo
+2026-01-16 22:51:02,434 - INFO - LLM Status: Link Successfully
+2026-01-16 22:51:03,473 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:51:14,233 - INFO - Not message from yolo
+2026-01-16 22:51:18,821 - INFO - LLM Status: Link Successfully
+2026-01-16 22:51:31,858 - INFO - LLM Status: Link Successfully
+2026-01-16 22:51:33,026 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:51:35,760 - INFO - Not message from yolo
+2026-01-16 22:51:41,962 - INFO - LLM Status: Link Successfully
+2026-01-16 22:51:43,160 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:51:46,019 - INFO - Not message from yolo
+2026-01-16 22:51:57,241 - INFO - LLM Status: Link Successfully
+2026-01-16 22:51:58,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:51:58,810 - INFO - Not message from yolo
+2026-01-16 22:52:03,285 - INFO - LLM Status: Link Successfully
+2026-01-16 22:52:12,536 - INFO - LLM Status: Link Successfully
+2026-01-16 22:52:14,514 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:52:14,590 - INFO - Not message from yolo
+2026-01-16 22:52:20,341 - INFO - LLM Status: Link Successfully
+2026-01-16 22:52:22,524 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:52:22,604 - INFO - Not message from yolo
+2026-01-16 22:52:29,316 - INFO - LLM Status: Link Successfully
+2026-01-16 22:52:31,708 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:52:31,786 - INFO - Not message from yolo
+2026-01-16 22:52:37,975 - INFO - LLM Status: Link Successfully
+2026-01-16 22:52:39,815 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:52:39,889 - INFO - Not message from yolo
+2026-01-16 22:52:46,241 - INFO - LLM Status: Link Successfully
+2026-01-16 22:52:48,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:52:50,652 - INFO - Not message from yolo
+2026-01-16 22:53:00,434 - INFO - LLM Status: Link Successfully
+2026-01-16 22:53:02,659 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:53:05,557 - INFO - Not message from yolo
+2026-01-16 22:53:15,763 - INFO - LLM Status: Link Successfully
+2026-01-16 22:53:18,156 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-16 22:53:25,234 - INFO - Not message from yolo
+2026-01-16 22:53:29,360 - INFO - System shutdown safely
+2026-01-16 22:53:29,466 - INFO - Camera Status: Release successfully

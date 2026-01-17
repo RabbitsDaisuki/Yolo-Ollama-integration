@@ -1,5 +1,10 @@
 # --- Folders not uploaded by git ---
 test/
-Data/
+Data/yaml
+Data/user_sound
+Data/result
+Data/raw
 docs/
 assets/
+.vscode/
+.DS_Store/

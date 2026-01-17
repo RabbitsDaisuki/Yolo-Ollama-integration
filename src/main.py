@@ -8,6 +8,7 @@ import threading
 
 class SharedContext:
     visual_info = "Nothing detected yet"
+    current_frame = None
     is_running = True
     is_listening = False
 
@@ -31,9 +32,10 @@ def LLM_Loop(llm_system):
                 continue
 
             new_vision = llm_data.visual_info
+            new_image = llm_data.current_frame
 
             try:
-                llm_out = llm_system._Chat_With_Ollama(user_text, new_vision)
+                llm_out = llm_system._Chat_With_Ollama(user_text, new_vision, new_image)
                 logging.info("Take message from yolo")
             except:
                 llm_out = llm_system._Chat_With_Ollama(user_text)
@@ -101,13 +103,13 @@ def main():
 
             # --- Share data ---
             llm_data.visual_info = str(results)
-
+            llm_data.current_frame = annotated_frame.copy()
             # -----show fps-----
             fps = 1/(time.time() - start)
             
             cv2.putText(annotated_frame,
                         f"FPS: {fps:.2f}, Status: AI Idle",
-                        (10,30),
+                        (10,60),
                         cv2.FONT_HERSHEY_SIMPLEX,
                         0.5,
                         (255, 0, 0),
@@ -118,7 +120,7 @@ def main():
             if llm_data.is_listening:
                 cv2.putText(annotated_frame,
                         f"FPS: {fps:.2f}, Status: AI Busy...",
-                        (10,30),
+                        (10,60),
                         cv2.FONT_HERSHEY_SIMPLEX,
                         0.5,
                         (255, 0, 0),
@@ -128,7 +130,7 @@ def main():
             else:
                 cv2.putText(annotated_frame,
                         f"FPS: {fps:.2f}, Status: AI Listing...",
-                        (10,30),
+                        (10,60),
                         cv2.FONT_HERSHEY_SIMPLEX,
                         0.5,
                         (255, 0, 0),
